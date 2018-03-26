@@ -34,7 +34,7 @@ $ git --version
 `rm -rf .git`  *remove Git entirely from current directory*
 
 
- For the complete Git documentation [click here](https://git-scm.com/doc, "Git documentation")
+ For complete Git documentation [click here](https://git-scm.com/doc, "Git documentation")
 
 
 ## Git workflow for FCC Oslo
