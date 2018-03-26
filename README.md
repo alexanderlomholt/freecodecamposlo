@@ -1,4 +1,4 @@
-*** FREE CODE CAMP OSLO
+* FREE CODE CAMP OSLO
 
 ** Purpose
 The purpose of this repository is to have a place where members of FCC Oslo can contribute their code and collaborate using Git and Github.
