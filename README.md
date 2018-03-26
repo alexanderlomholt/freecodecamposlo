@@ -26,3 +26,5 @@ IMPORTANT: see our GIT_GUIDE.md in the root of this repo before you contribute t
 
 This document was written in markdown. All other documentation/text files in this repo should use markdown. For a comprehensive guide to markdown see the [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet "Markdown cheatsheet") by [adam-p](https://github.com/adam-p "adam-p github")
 
+Here's a useful live preview [markdown editor](http://markdownlivepreview.com/ "Markdown editor")
+
