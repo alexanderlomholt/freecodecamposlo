@@ -13,12 +13,12 @@ To check if you have Git open your terminal and type
 $ git --version
 ```
 
---> Download Git [here](https://git-scm.com/downloads "Git download")
+  --> Download Git [here](https://git-scm.com/downloads "Git download")
 
 
 ## Git commands
 
-Git command | description |
+Git command | description
 --- | --- | ---
 `git init` | *initialize git in the current directory*
 `git add -A` | *Adds all changes to made*
@@ -34,6 +34,9 @@ Git command | description |
 `git reset --hard 0d1d7fc32` | *destroy any local modifications and revert to previous commit*
 `git revert HEAD~3` | *revert back x number of times, in this case 3 commits back*
 `rm -rf .git` | *remove Git entirely from current directory*
+
+
+    --> For the complete Git documentation [click here](https://git-scm.com/doc, "Git documentation")
 
 
 ## Git workflow for FCC Oslo
