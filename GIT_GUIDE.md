@@ -3,6 +3,8 @@
 This is the FCC Oslo documentation/cheatsheet for Git.
 Please read before you contribute to the project.
 
+  If you do not have a github account go create one [now](https://github.com/ "Github.com")
+
 
 ## Git version control
 
@@ -49,10 +51,74 @@ $ git --version
 `$ rm -rf .git`  *remove Git entirely from current directory*
 
 
+For complete Git documentation [click here](https://git-scm.com/doc "Git documentation")
 
- For complete Git documentation [click here](https://git-scm.com/doc, "Git documentation")
+## Start contributing to the FCC Oslo project
+
+First things first, you need to provide your Github username to [alexanderlomholt](https://github.com/alexanderlomholt "Alexanderlomholt Github") at our monday meetup or via the [Facebook page](https://www.facebook.com/groups/free.code.camp.oslo/ "FCC Oslo facebook page") so you can be added as a collaborator.
+
+Next, once added as a collaborator you will receive an email from Github with instructions on how to pull the latest version of the repo to your local machine, so you can start adding to the project.
+
+Congrats! You now have a local copy of the repo and you can start adding your code to the project and push to Github. See the next section and follow our workflow.
 
 
-## Git workflow for FCC Oslo
+## Git workflow for this project
 
-...to be added.
+*Rule number one: do not push to the master branch :)*
+
+*For every feature/file/change you want to make, you will create a branch before you write any code. You will then add your changes in git, make one or more commits and push the branch to Github.*
+
+How to add some code, documentation, new files/directories etc:
+
+```shell
+$ git checkout -b name-of-new-feature-or-change
+```
+
+You are now on a newly created branch! Start writing your code/add files etc. Then:
+
+```shell
+$ git status
+$ git add -A
+$ git commit -m "added new button with email:to"
+$ git push origin name-of-new-feature-or-change
+```
+
+Type your password when prompted.
+
+Now wait for someone in the FCC group to review your changes. They will merge it to the master branch or leave you a comment if your code has a bug etc. You can also ask for someone to review your new changes in our facebook group.
+
+
+
+## Creating a new Git and Github repository
+
+You can easily create a new Github repo in your terminal/command line using [Hub](https://hub.github.com/ "Hub") which you need to install on your machine. On Mac OS you should install the [Brew](https://brew.sh/ "Brew for OSX") package manager before you install Hub.
+
+*Create a new git project via your terminal*
+
+```shell
+$ mkdir newprojectname
+$ git init
+$ git touch readme.md (you need an initial file, like a readme, to push project to github)
+$ git add -A
+$ git commit -m "initialize project"
+$ hub create
+$ git remote -v
+$ git push origin master
+```
+
+Now check that you new shiny repo is on your github account with the readme file you created. You're ready to start using the git workflow documented above this section.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
