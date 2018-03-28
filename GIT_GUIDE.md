@@ -53,6 +53,7 @@ $ git --version
 
 For complete Git documentation [click here](https://git-scm.com/doc "Git documentation")
 
+
 ## Start contributing to the FCC Oslo project
 
 First things first, you need to provide your Github username to [alexanderlomholt](https://github.com/alexanderlomholt "Alexanderlomholt Github") at our monday meetup or via the [Facebook page](https://www.facebook.com/groups/free.code.camp.oslo/ "FCC Oslo facebook page") so you can be added as a collaborator.
@@ -85,8 +86,20 @@ $ git push origin name-of-new-feature-or-change
 
 Type your password when prompted.
 
-Now wait for someone in the FCC group to review your changes. They will merge it to the master branch or leave you a comment if your code has a bug etc. You can also ask for someone to review your new changes in our facebook group.
+Go to the FCC Oslo repo and click on branches. You will see your branch there, click on open pull request and wait for someone to review your code and merge it to master. Once your code has been merged you need to go fetch the updated version of the repo with your changes implemented. Back to your command line and type:
 
+```shell
+$ git pull origin master
+```
+
+Now, pull the updated master from you command line / terminal, open the index.html in your browser and make sure new changes are working as intended. If there's a bug you can create a new branch and fix it.
+
+
+## Review and merge other peoples code
+
+You can review other peoples code (pull requests) by navigating to branches on our Github repo and clicking open on a newly added branch. You can then review the code and if it looks good click on merge to master.
+
+Now, pull the updated master from you command line / terminal, open the index.html in your browser and make sure new changes are working as intended. If there's a bug you can create a new branch and fix it.
 
 
 ## Creating a new Git and Github repository
